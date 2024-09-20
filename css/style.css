@@ -22,7 +22,9 @@ blockquote:before,blockquote:after,q:before,q:after{
   content:'';content:none
 }
 table{
-  border-collapse:collapse;border-spacing:0}*,::before,::after{-webkit-box-sizing:border-box;box-sizing:border-box;background-repeat:no-repeat
+  border-collapse:collapse;border-spacing:0
+}*,::before,::after{
+    -webkit-box-sizing:border-box;box-sizing:border-box;background-repeat:no-repeat
 }::before,::after{
   text-decoration:inherit;vertical-align:inherit
 }
