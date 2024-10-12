@@ -1126,5 +1126,91 @@ section{
       .p-work-about__item-block p+p{
         margin:8px 0 0 0
       }
-    }.p-work-others__list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.p-work-others__item{width:calc(1 / 2 * 100% - 35px);margin:0 0 64px 0}@media screen and (max-width: 1024px){.p-work-others__item{width:calc(1 / 2 * 100% - 20px);margin:0 0 40px 0}}@media screen and (max-width: 767px){p-work-others__item{width:calc(1 / 2 * 100% - 12px)}}@media screen and (max-width: 599px){.p-work-others__item{width:100%;margin:0}}.p-work-others__item:nth-child(2n){margin:0 0 0 70px}@media screen and (max-width: 1024px){.p-work-others__item:nth-child(2n){margin:0 0 0 40px}}@media screen and (max-width: 767px){.p-work-others__item:nth-child(2n){margin:0 0 0 24px}}@media screen and (max-width: 599px){.p-work-others__item+.p-work-others__item{margin:48px 0 0 0}}.p-work-others__item-pict{border:3px solid #333;overflow:hidden}.p-work-others__item-pict a{display:block;padding:calc(272 / 365 * 100% / 2);background:no-repeat;background-size:cover;background-position:center}.p-work-others__item-pict a img{-webkit-transition:.2s;transition:.2s}.p-work-others__item-pict a:hover{-webkit-transform:scale(1.1, 1.1);-ms-transform:scale(1.1, 1.1);transform:scale(1.1, 1.1)}.p-work-others__item-pict a:hover img{-webkit-transform:scale(1.1, 1.1);-ms-transform:scale(1.1, 1.1);transform:scale(1.1, 1.1)}.p-work-others__item-text-block{text-align:center;margin:12px 0 0 0;padding:0 .5em}.p-work-others__item-text-block h3{font-size:1.6rem;font-weight:700;letter-spacing:0.1em;line-height:1.5}@media screen and (max-width: 599px){.p-work-others__item-text-block h3{font-size:2rem}}.p-work-others__item-text-block p{margin:2px 0 0 0;font-size:1.2rem;letter-spacing:.1em}@media screen and (max-width: 599px){.p-work-others__item-text-block p{font-size:1.4rem}}.p-work-others__item-btn-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:16px 0 0 0}
+    }.p-work-others__list{
+      display:-webkit-box;
+      display:-ms-flexbox;
+      display:flex;
+      -ms-flex-wrap:wrap;
+      flex-wrap:wrap
+    }.p-work-others__item{
+      width:calc(1 / 2 * 100% - 35px);
+      margin:0 0 64px 0
+    }@media screen and (max-width: 1024px){
+      .p-work-others__item{
+        width:calc(1 / 2 * 100% - 20px);
+        margin:0 0 40px 0
+      }
+    }@media screen and (max-width: 767px){
+      p-work-others__item{
+        width:calc(1 / 2 * 100% - 12px)
+      }
+    }@media screen and (max-width: 599px){
+      .p-work-others__item{
+        width:100%;
+        margin:0
+      }
+    }.p-work-others__item:nth-child(2n){
+      margin:0 0 0 70px
+    }@media screen and (max-width: 1024px){
+      .p-work-others__item:nth-child(2n){
+        margin:0 0 0 40px
+      }
+    }@media screen and (max-width: 767px){
+      .p-work-others__item:nth-child(2n){
+        margin:0 0 0 24px
+      }
+    }@media screen and (max-width: 599px){
+      .p-work-others__item+.p-work-others__item{
+        margin:48px 0 0 0
+      }
+    }.p-work-others__item-pict{
+      border:3px solid #333;
+      overflow:hidden
+    }.p-work-others__item-pict a{
+      display:block;
+      padding:calc(272 / 365 * 100% / 2);
+      background:no-repeat;
+      background-size:cover;
+      background-position:center
+    }.p-work-others__item-pict a img{
+      -webkit-transition:.2s;
+      transition:.2s
+    }.p-work-others__item-pict a:hover{
+      -webkit-transform:scale(1.1, 1.1);
+      -ms-transform:scale(1.1, 1.1);
+      transform:scale(1.1, 1.1)
+    }.p-work-others__item-pict a:hover img{
+      -webkit-transform:scale(1.1, 1.1);
+      -ms-transform:scale(1.1, 1.1);
+      transform:scale(1.1, 1.1)
+    }.p-work-others__item-text-block{
+      text-align:center;
+      margin:12px 0 0 0;
+      padding:0 .5em
+    }.p-work-others__item-text-block h3{
+      font-size:1.6rem;
+      font-weight:700;
+      letter-spacing:0.1em;
+      line-height:1.5
+    }@media screen and (max-width: 599px){
+      .p-work-others__item-text-block h3{
+        font-size:2rem
+      }
+    }.p-work-others__item-text-block p{
+      margin:2px 0 0 0;
+      font-size:1.2rem;
+      letter-spacing:.1em
+    }@media screen and (max-width: 599px){
+      .p-work-others__item-text-block p{
+        font-size:1.4rem
+      }
+    }.p-work-others__item-btn-block{
+      display:-webkit-box;
+      display:-ms-flexbox;
+      display:flex;
+      -webkit-box-pack:center;
+      -ms-flex-pack:center;
+      justify-content:center;
+      margin:16px 0 0 0
+    }
 /*# sourceMappingURL=style.css.map */
