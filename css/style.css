@@ -1214,3 +1214,22 @@ section{
       margin:16px 0 0 0
     }
 /*# sourceMappingURL=style.css.map */
+
+
+.purchase-btn {
+  width: 250px;
+  height: 250px;
+  background: #3ccace;
+  padding: 15px;
+}
+
+.purchase-btn-text {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.purchase-btn-icon {
+  width: 60%;
+}
